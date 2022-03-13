@@ -5,7 +5,9 @@ body {
     padding: 0px;
     height: auto;
     width: 100%;
-    background: url("img/background.jpg") no-repeat;
+    position: fixed;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
     padding: 0;
     position: absolute;
