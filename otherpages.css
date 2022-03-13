@@ -2,7 +2,17 @@
 
 body {
     overflow-y: scroll;
-    background-color: black;
+    background: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.banner h1{
+    position: absolute;
+    top: 100px;
+    opacity: 100%;
 }
 
 .menu-wrap {
