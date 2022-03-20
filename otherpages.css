@@ -1,15 +1,17 @@
 * {}
 
-body {
+html {
     overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+body {
     background: url("background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-
-
-.banner h1{
+.banner h1 {
     position: absolute;
     top: 100px;
     opacity: 100%;
