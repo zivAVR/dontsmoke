@@ -3,12 +3,22 @@
 html {
     overflow-y: scroll;
     overflow-x: hidden;
+    background: url(background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
-body {
-    background: url("background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+body {}
+
+.text p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: 450;
 }
 
 .banner h1 {
